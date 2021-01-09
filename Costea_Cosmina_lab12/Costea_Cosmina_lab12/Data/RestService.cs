@@ -12,7 +12,7 @@ namespace Costea_Cosmina_lab12.Data
     {
         HttpClient client;
 
-        string RestUrl = "https://192.168.1.7:45456";
+        string RestUrl = "https://192.168.1.7:45456/api/shoplists/{0}";
         public List<ShopList> Items { get; private set; }
         public RestService()
         {
